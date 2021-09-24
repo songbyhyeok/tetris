@@ -1,0 +1,10 @@
+﻿  Block.cpp
+  Board.cpp
+C:\Users\songb\source\repos\Tetris\Tetris\Board.cpp(99,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\songb\source\repos\Tetris\Tetris\Board.cpp(112,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\songb\source\repos\Tetris\Tetris\Board.cpp(172,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Collision.cpp
+  MainGame.cpp
+  PlayerController.cpp
+  코드를 생성하고 있습니다...
+  Tetris.vcxproj -> C:\Users\songb\source\repos\Tetris\Debug\Tetris.exe

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{aca5c118-9bc8-4605-9bea-eca7d229b682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Manager">
+      <UniqueIdentifier>{b10ac8ee-578d-4faf-9e01-d74bdfd051ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Collision">
+      <UniqueIdentifier>{11c8dfbc-c646-4498-97e6-5f189a1e443b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\ConsoleHelper">
+      <UniqueIdentifier>{500fa63d-e099-4dda-b83d-7b11241a54c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Controller">
+      <UniqueIdentifier>{e6cdf1f0-21a0-4113-a2e8-cbdf9e5fde1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{4c57d1b0-db2d-4150-8d9d-a6047c6608df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="GameSource">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GameSource\Block">
+      <UniqueIdentifier>{fdd92c74-0cd0-45b9-a043-faf4644a747b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource\Board">
+      <UniqueIdentifier>{6d620eb9-d1e4-457f-b3ac-eea3c668b494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program">
+      <UniqueIdentifier>{5393545b-747f-4044-9ae1-59dfe7d4bed4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>FrameWork\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleHelper.cpp">
+      <Filter>FrameWork\ConsoleHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>FrameWork\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>GameSource\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>GameSource\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Program</Filter>
+    </ClCompile>
+    <ClCompile Include="DefineController.cpp">
+      <Filter>FrameWork\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>FrameWork\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>FrameWork\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleHelper.h">
+      <Filter>FrameWork\ConsoleHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>FrameWork\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>GameSource\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>GameSource\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineController.h">
+      <Filter>FrameWork\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>FrameWork\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
