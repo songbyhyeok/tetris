@@ -1,0 +1,36 @@
+array를 선언한다.
+해당 arr[y] = 10일 경우 line = line + 1
+최소 RockType Y 값을 수시로 바꾼다.
+
+검사할 때 18줄부터 시작해서 위로 하나씩 올라가면서 line 검사를 한다.
+18줄에 10이면 line + 1
+다음 17줄도 10치면 line + 1
+16줄은 10이 아닐 경우 
+18, 17줄을 0으로 바꾸고 2 line 값만큼 minRockType Y 까지 밑으로 전부 내린다.
+
+line = 0;
+bool isTest = false;
+if (array[i] == 10) {
+	if (isTest)
+		isTest = false;
+
+	line += 1;
+
+	for j
+	grid[i][j] = none;
+}
+else if (i != 18 && array[i + 1] == 10 && array[i] != 10) {
+	isTest true;
+}
+if (i != 18 && isTest)
+for j -> if (type Rock) 
+setGrid i + line, j, Rock
+setGrid i, j, None
+
+
+line이 생긴 시발점에서 부터 연속적으로 이어지는 개수를 저장한다.
+ex 17에서 시작 14에서 끝난다. 총 3줄
+pair<int, int> line.first = 17, line, second = 3
+충돌 시 pair[0]부터 처리하고
+그 다음 또 10개 줄이 있는 다른 라인이 존재하면
+pair[1] 에 데이터를 처리하게 하면 될 듯하다.
